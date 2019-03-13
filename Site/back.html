@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Les films de plein air</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</head>
+
+<body class="back-end">
+    <div class="container-fluid back">
+        <div class="row top">
+            <div class="col-md-2">
+                <a href="index.html"><button class="btn btn-default"><i class="fas fa-arrow-left"></i> Retour au site</button></a>
+            </div>
+            <div class="col-md-offset-4 col-md-6">
+                <h3>Connecté en tant que : Administrateur</h3>
+                <span class="label label-danger">Déconnexion</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <table class="table table-hover table-bordered">
+                <caption>
+                    <h3>Articles publiés</h3>
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Titre</th>
+                        <th>Description</th>
+                        <th>Image</th>
+                        <th>Date de publication</th>
+                        <th>Selection</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Venez découvrir le site du festival</td>
+                        <td>La première édition du festival des films de plein air se déroule dans un lieu exceptionnel. Venez en apprendre un peu plus sur le parc Monceau.</td>
+                        <td><i class="far fa-file-image"></i>image.jpg</td>
+                        <td>12/04/2018</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>La programmation complète dévoilée</td>
+                        <td>Après des mois d'attente voici enfin la liste des 12 films qui seront projetés lors du festival des films de plein air 2018</td>
+                        <td><i class="far fa-file-image"></i>image.jpg</td>
+                        <td>13/04/2018</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>La tradition des films de plein air</td>
+                        <td>Quel plaisir de profiter de ses films préférés au grand air. Venez re-découvrir ce plaisir lors de notre festival.</td>
+                        <td><i class="far fa-file-image"></i>image.jpg</td>
+                        <td>14/04/2018</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="pull-right btn btn-danger"><i class="fas fa-trash-alt"></i> Supprimer</button>
+                <button class="pull-right btn btn-primary"><i class="fas fa-pencil-alt"></i> Modifier</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 titreback">
+                <h3>Nouvel Article</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-group col-md-6">
+                    <label for="titre">Titre</label>
+                    <textarea id="textarea" maxlenght="80" placeholder="80 caractères max" class="form-control" rows="4"></textarea>
+                </form>
+                <form class="form-group col-md-6">
+                    <label for="descritpion">Description</label>
+                    <textarea id="textarea" maxlenght="200" placeholder="200 caractères max"class="form-control" rows="4"></textarea>
+                </form>
+            </div>
+            <form class="form-inline">
+                <label for="image">Ajouter une image : </label>
+                <button class="btn btn-primary"><i class="fas fa-upload"></i> Télécharger</button>
+                <input type="text">
+                <button class="btn btn-success"><i class="far fa-check-circle"></i> Valider</button>
+            </form>
+            <div class="col-md-12">
+                <h3>Article</h3>
+                <img src="images/redaction.png" class="redaction" alt="interface de rédaction">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="pull-right btn btn-success btn-valid"><i class="far fa-check-circle"></i> Publier</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 titreback">
+                <h3>Extraction programmation</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron text-center">
+                    <p>Télécharger la dernière version du fichier de réservation : <button class="btn btn-primary"><i class="fas fa-download"></i> Télécharger | reservation.xls</button></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

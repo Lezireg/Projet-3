@@ -1,0 +1,661 @@
+/*color 
+red : #F6490D
+dark blue : #000249
+light blue : #1DCED8
+white : #FAF9F0
+*/
+
+body {
+    background-color: #F6490D;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pagearticle {
+    background-color: #F6490D;
+}
+
+.titre-accueil {
+    height: 80px;
+    background-color: #F6490D;
+    color: white;
+    padding-left: 30px;
+}
+
+.btn-perso {
+    font-size: 1.4em;
+    color: #000249;
+    text-decoration: none;
+    border: solid 3px;
+    border-color: #000249;
+    background-color: white;
+    padding: 3px 15px 3px 15px;
+    margin-right: 17px;
+}
+
+.btn-perso:hover {
+    font-size: 1.4em;
+    color: white;
+    text-decoration: none;
+    border: solid 3px;
+    border-color: #000249;
+    background-color: #000249;
+    padding: 3px 15px 3px 15px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Barre de navigation */
+
+.navbar {
+    background-color: #F6490D;
+    color: white;
+}
+
+.logo {
+    float: left;
+    padding-right: 8px;
+}
+
+.menu {
+    padding-top: 10px;
+    font-size: 1.3em;
+}
+
+.menu ul {
+    padding-top: 3px;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    list-style: none;
+}
+
+.menu ul a {
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.menu li a:hover {
+    color: white;
+    background-color: #000249;
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+.social {
+    padding-right: 5px;
+    text-align: right;
+    font-size: 2.6em;
+}
+
+.social a {
+    color: white;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #00aced;
+}
+
+.fa-instagram:hover {
+    color: #fbad50;
+}
+
+/* Menu responsive */
+
+.menuresponsive {
+    height: 51px;
+    background-color: #F6490D;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.6em;
+}
+
+.menuresponsive a {
+    color: white;
+}
+
+.menuresponsive ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menuresponsive ul ul {
+    display: none;
+    list-style: none;
+    background-color: #F6490D;
+}
+
+.menuresponsive ul ul li {
+    border-bottom: solid 2px;
+    border-color: white;
+    font-size: 0.8em;
+}
+
+.menuresponsive ul ul a:hover {
+    color: #000249;
+    text-decoration: none;
+}
+
+.menuresponsive li:hover ul.niveau2 {
+    display: block;
+}
+
+/* Jumbotron */
+
+.accueil {
+    margin-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+    width: auto;
+}
+
+.titre {
+    margin-top: -260px;
+    margin-bottom: 152px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.titre h1 {
+    font-size: 3em;
+}
+
+.titre p {
+    font-size: 1.8em;
+}
+
+/*********************** articles ************************/
+
+/*article bleu*/
+
+.articlebleu {
+    background-color: #000249;
+    height: 400px;
+    text-align: center;
+}
+
+.articlebleu a {
+    color: white;
+    padding-top: 20%;
+}
+
+.articlebleu a h2 {
+    color: #1DCED8;
+}
+
+.articlebleu:hover {
+    background-color: white;
+    text-decoration: underline!important;
+}
+
+.articlebleu:hover a {
+    color: black;
+    padding-top: 20%;
+}
+
+.articlebleu:hover a h2 {
+    color: black;
+}
+
+/* article rose */
+
+.articlerose {
+    background-color: #1DCED8;
+    height: 400px;
+    text-align: center;
+}
+
+.articlerose a {
+    color: #000249;
+    padding-top: 20%;
+}
+
+.articlerose a h2 {
+    color: white;
+}
+
+.articlerose:hover {
+    background-color: white;
+    text-decoration: underline;
+}
+
+.articlerose:hover a {
+    color: black;
+    padding-top: 20%;
+}
+
+.articlerose:hover a h2 {
+    color: black;
+}
+
+/* article blanc */
+
+.articleblanc {
+    background-color: #FAF9F0;
+    height: 400px;
+    text-align: center;
+}
+
+.articleblanc a {
+    color: #1DCED8;
+    padding-top: 20%;
+}
+
+.articleblanc a h2 {
+    color: #000249;
+}
+
+.articleblanc:hover {
+    background-color: white;
+    text-decoration: underline;
+}
+
+.articleblanc:hover a {
+    color: black;
+    padding-top: 20%;
+}
+
+.articleblanc:hover a h2 {
+    color: black;
+}
+
+
+/* page article */
+
+.article {
+    background-color: White;
+    margin-top: 40px;
+}
+
+.article h2 {
+    color: #000249;
+    margin-top: 70px;
+    margin-bottom: 35px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #1DCED8;
+}
+
+.article img {
+    margin-bottom: 35px;
+}
+
+.corps-texte {
+    padding-bottom: 70px;
+}
+
+/********************** programmation *********************/
+
+.jour {
+    height: 65px;
+    background-color: #000249;
+    color: white;
+    text-align: center;
+}
+
+.horaire {
+    height: 65px;
+    background-color: #1DCED8;
+    color: white;
+    text-align: center;
+}
+
+.horaire h3 {
+    font-size: 2.2em;
+}
+
+.modifimage {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+
+/* overlay film*/
+
+.grayscale {}
+
+.grayscale div img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.grayscale div:hover img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.grayscale div .surimpression {
+    display: none;
+    color: white;
+    font-size: 1.4em;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.grayscale div h3 {
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.grayscale div .bouton {
+    display: none;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+}
+
+.grayscale div:hover .surimpression {
+    display: block;
+}
+
+.grayscale div:hover .bouton {
+    display: block;
+}
+
+.btn-film {
+    font-size: 1.6em;
+    color: black;
+    text-decoration: none;
+    border: solid 3px;
+    border-color: white;
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.btn-film:hover {
+    color: #1DCED8;
+    background-color: white;
+}
+
+/************************** reservation *************************/
+
+/* module de reservation */
+
+.modulereservation {
+    height: auto;
+    text-align: center;
+    background-color: #FAF9F0;
+    padding-bottom: 20px;
+}
+
+.intro {
+    color: #000249;
+    font-size: 1.5em;
+    background-color: #FAF9F0;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+/*formulaire */
+
+.control-label {
+    color: white;
+    background-color: #000249;
+    padding: 5px;
+    border: solid 3px;
+    border-color: #000249;
+}
+
+.form-control {
+    color: gray;
+    background-color: white;
+    margin-left: -18px;
+    border: solid 3px;
+    border-color: #000249;
+    border-radius: 0px;
+    height: 38px;
+}
+
+/************************** FAQ **************************/
+
+.faq {
+    height: auto;
+    background-color: #FAF9F0;
+    padding-bottom: 30px;
+}
+
+.panel {
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.panel-heading {
+    border: solid 2px;
+    background-color: #000249;
+    border-color: #000249;
+    color: white;
+}
+
+.panel-body {
+    border: solid 2px;
+    border-color: #000249;
+    background-color: white;
+}
+
+/************************* footer *************************/
+
+footer {
+    height: 45px;
+    background-color: #F6490D;
+    color: white;
+    font-size: 1em;
+}
+
+footer ul {
+    padding-top: 13px;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    list-style: none;
+}
+
+footer li {
+    padding-right: 7px;
+    padding-left: 7px;
+    border-right: solid 1px;
+    border-color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #000249;
+    text-decoration: none;
+}
+
+.collapse {
+    height: auto;
+    background-color: #F6490D;
+    padding: 15px;
+}
+
+.copyright p {
+    font-size: 0.7em;
+    color: white;
+    height: 8px;
+}
+
+/* footer administration */
+
+.administration {
+    padding-left: 60px;
+    padding-right: 15px;
+}
+
+#contact {
+    padding-left: 100px;
+}
+
+#contact p {
+    padding-left: 26px;
+}
+
+/* footer up arrow */
+
+.fa-chevron-up {
+    font-size: 2.5em;
+    padding: 2px 3px 2px 3px;
+    margin-top: 6px;
+    border: solid 3px;
+    border-color: white;
+}
+
+/************************ Pages films **************************/
+
+.film {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 15%;
+}
+
+.bande-annonce {
+    padding: 30px;
+}
+
+.film-contenu h2 {
+    padding-bottom: 5px;
+    border-bottom: solid 1px #1DCED8;
+}
+
+.sous-titre {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.synopsis {
+    padding-bottom: 5px;
+    border-bottom: solid 1px #1DCED8;
+}
+
+.seance {
+    font-size: 1.5em;
+    color: gray;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #1DCED8;
+}
+
+
+
+/******************** Infos pratiques *******************/
+
+.infospratiques {
+    background-color: white;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.infospratiques h2 {
+    padding-top: 35px;
+    margin-bottom: 10px;
+    color: #000249;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #1DCED8;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*********************** Back end ***********************/
+
+.back .btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+}
+
+.back-end {
+    background-color: white;
+}
+
+.top {
+    background-color: #1DCED8;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.titreback {
+    background-color: #1DCED8;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.top a {
+    margin-top: 15px;
+}
+
+.btn-danger {
+    margin-left: 15px;
+    margin-right: -15px;
+}
+
+.redaction {
+    width: 100%;
+}
+
+.btn-valid {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* responsive */
+@media screen and (max-width: 1147px) {
+    
+    .jour h2{
+        font-size: 1.5em;
+    }
+    
+    .logofestival{
+        display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    #lefestival {
+        margin-top: 100px;
+    }
+    article {
+        padding-top: 18px;
+    }
+
+    .infospratiques {
+        margin-top: 100px;
+    }
+}
+
+
